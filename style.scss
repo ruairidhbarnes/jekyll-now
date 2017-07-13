@@ -29,7 +29,9 @@ div.body {
   width: 100vh;
   position: fixed;
   top: 0;
+  left: 0;
   z-index: -10;
+  object-fit: cover;
 }
 
 .container {
@@ -282,6 +284,7 @@ nav {
 
 .wrapper-footer {
   margin-top: 50px;
+  margin-bottom: -5px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
